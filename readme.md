@@ -2,7 +2,7 @@
 
 Reinforcement learning (RL) based investment strategies have been widely adopted in portfolio management (PM) in recent years. Nevertheless, most RL-based approaches may often emphasize on pursuing returns while ignoring the risks of the underlying trading strategies that may potentially lead to great losses especially under high market volatility. Therefore, a risk-manageable PM investment framework integrating both RL and barrier functions (BF) is proposed to carefully balance the needs for high returns and acceptable risk exposure in PM applications. Up to our understanding, this work represents the first attempt to combine BF and RL for financial applications. While the involved RL approach may aggressively search for more profitable trading strategies, the BF-based risk controller will continuously monitor the market states to dynamically adjust the investment portfolio as a controllable measure for avoiding potential losses particularly in downtrend markets. Additionally, two adaptive mechanisms are provided to dynamically adjust the impact of risk controllers such that the proposed framework can be flexibly adapted to uptrend and downtrend markets. The empirical results of our proposed framework clearly reveal such advantages against most well-known RL-based approaches on real-world data sets. More importantly, our proposed framework shed lights on many possible directions for future investigation.
 
-This reportsitory is the official implementation of RiPO. The detailed introduction of RiPO has been released online: [RiPO Paper](https://arxiv.org/pdf/2306.07013.pdf).
+This reportsitory is the official implementation of RiPO. The detailed introduction of RiPO has been released online: [arXiv:2306.07013](https://arxiv.org/pdf/2306.07013.pdf).
 
 ## Requirements
 
@@ -28,7 +28,8 @@ python entrance.py
 We appreciate that they share their amazing works and implementations. This project would not have been finished without their works.
 
 ## Others
-Should you have any questions, please do not hesitate to contact me: lzlong@hku.hk
+- The implementation is for research purpose only. Please be noted that **the market always has risk**.
+- Should you have any questions, please do not hesitate to contact me: lzlong@hku.hk
 
 
 Thanks!
